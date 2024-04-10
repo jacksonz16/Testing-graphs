@@ -1,12 +1,16 @@
 <template>
-  <BarChart />
+  <div id="app">
+    <PlanetChart/>
+  </div>
 </template>
 
 <script>
-import BarChart from 'path/to/component/BarChart'
+import PlanetChart from './components/PlanetChart.vue'
 
 export default {
   name: 'App',
-  components: { BarChart }
+  components: {
+    PlanetChart
+  }
 }
 </script>
